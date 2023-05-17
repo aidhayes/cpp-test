@@ -15,7 +15,12 @@ int main() {
     int sum = x + y;
     cout << sum << endl;
 
+    const int minPerHr = 60;
 
-
+    int minutes;
+    cout << "How many minutes did you exercise? ";
+    cin >> minutes;
+    double hours = minutes / minPerHr;
+    cout << "You exercised for " << hours << " hours." << endl;
     return 0;
 }
