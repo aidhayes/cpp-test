@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-
+// g++ [filename] to compile
+// ./a.out to run
 int main() {
     // Basic print text
     cout << "Hello world!" << endl;
