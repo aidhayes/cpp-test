@@ -11,8 +11,7 @@ int main() {
     cout << "The number is " << num << endl;
 
     // Addition
-    int x = 15;
-    int y = 12;
+    int x = 15, y = 12;
     int sum = x + y;
     cout << sum << endl;
 
